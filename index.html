@@ -4,52 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  <title>Ingredient Analyzer Landing Page</title>
+  <title>Ingredient Analyzer</title>
 </head>
 <body>
 
-  <!-- Header -->
+
   <header>
-    <h1>Ingredient Analyzer</h1>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#analyzer">Analyzer</a>
-      <a href="#contact">Contact</a>
+      <!-- NAV BAR -->
+    <nav class="navbar">
+      <div class="logo"><strong>Ingredient Analyzer</strong></div>
+      <ul class="nav-links" style="display: flex; list-style: none; gap: 15px;">      <!-- inserted FlexBox here: -->
+        <li><a href="#home">Home</a></li>
+        <li></li><a href="#analyzer">Analyze</a></li>
+        <li></li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <!-- Hero Section -->                   <!-- A hero section is the "front door" of a website. It is the big, eye-catching area at the very top of a webpage—usually the first thing you see before scrolling.-->
-    <section id="home">
-      <h2>Decode Your Skincare Ingredients with Confidence</h2>
-      <p>Analyze product ingredient lists, understand what each ingredient does, and make smarter skincare choices.</p>
-      <button>Analyze Now</button>
+  
+  <!-- HERO BANNER -->
+    <section class="hero-banner">
+      <div class="hero-content">
+        <h1>Decode Your Skincare Ingredients with Confidence</h1>
+          <p>Analyze product ingredient lists, understand what each ingredient does, and make smarter skincare choices.</p>
+        <button>Analyze Now</button>
+      </div>
     </section>
 
-    <!-- Analyzer Features Section -->
-<section id="analyzer">
+
+
+
+<section class="analyzer">
   <h2>Why Use Ingredient Analyzer?</h2>
 
+
+<!-- FEATURE CARD ROW -->
   <div class="feature-cards">
-    <article class="feature-card">
+    <div class="feature-card">
       <h3>Ingredient Breakdown</h3>
       <p>Quickly see what each ingredient does, from hydrators to actives to potential irritants.</p>
-    </article>
+    </div>
 
-    <article class="feature-card">
+    <div class="feature-card">
       <h3>Skin-Friendly Insights</h3>
       <p>Identify ingredients that may help or trigger concerns like dryness, acne, or sensitivity.</p>
-    </article>
+    </div>
 
-    <article class="feature-card">
+    <div class="feature-card">
       <h3>Smarter Product Decisions</h3>
       <p>Compare formulas and choose products based on what actually works for your skin goals.</p>
-    </article>
+    </div>
   </div>
 </section>
 
-    <!-- Contact Form Section -->
-    <section id="contact">
+
+    <section class="contact">
       <h2>Stay Updated</h2>
       <p>Sign up for ingredient tips, skincare education, and future app updates.</p>
 
